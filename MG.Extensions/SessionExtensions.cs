@@ -16,4 +16,5 @@ namespace MG.Extensions.Session
             return userSessionDataJson == null ? null : JsonConvert.DeserializeObject<UserSessionData>(userSessionDataJson);
         }
     }
+
 }
