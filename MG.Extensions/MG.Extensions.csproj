@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="MG.Shared">
-      <HintPath>..\..\..\MG-Control\MG.Shared\bin\Debug\net8.0\MG.Shared.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\MG-Control\MG.Shared\MG.Shared.csproj" />
   </ItemGroup>
 
 </Project>
